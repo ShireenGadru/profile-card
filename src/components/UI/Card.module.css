@@ -1,0 +1,13 @@
+.card {
+    background: rgb(241, 240, 240);
+    box-shadow: 0 5px 8px rgba(22, 22, 22, 0.26) ;
+    border-radius: 10px;
+    width: 400px;
+    margin: 30px auto;
+}
+
+@media only screen and (max-width: 500px) {
+   .card {
+     width: 340px;
+    }
+  }
