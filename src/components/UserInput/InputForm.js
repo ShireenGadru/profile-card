@@ -47,7 +47,7 @@ const InputForm = props => {
             <label className={styles.label}> About you: </label>
             <input value={about} className={styles.input} onChange={aboutChangeHandler}></input>
             <label className={styles.label}> Image url: </label>
-            <input value={image} className={styles.input} onChange={imageChangeHandler}></input>
+            <input value={image} className={styles.input} onChange={imageChangeHandler} placeholder="https://picsum.photos/id/237/200/300"></input>
             <button className={styles.btn} type="submit">Create</button>
         </form>
         </Card>
